@@ -20,7 +20,7 @@ import java.util.HashMap;
 
 public class NewEntryActivity extends AppCompatActivity {
 
-    private static final String INSERT_URL = "http://ignas.epizy.com/mobile/db.php";
+    public static final String INSERT_URL = "http://ignas.epizy.com/mobile/db.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -106,7 +106,9 @@ public class NewEntryActivity extends AppCompatActivity {
                 Toast.makeText(NewEntryActivity.this,
                         s,
                         Toast.LENGTH_SHORT).show();
-                Intent eitiIPaieskosLanga = new Intent(NewEntryActivity.this,SearchActivity.class);
+
+
+                Intent eitiIPaieskosLanga = new Intent(NewEntryActivity.this, com.dinner.dinner.Dinner.SearchActivity.class);
                 startActivity(eitiIPaieskosLanga);
             }
 

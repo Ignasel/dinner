@@ -28,5 +28,5 @@
     </string-array>
     <string name="new_entry_button">Create</string>
     <string name="new_entry_database_info">Prašome palaukti, įrašas siunčiamas į duomenų bazę</string>
-
+    <string name="entry_db_loading_msg">Žinutė su tekstu</string>
 </resources>
